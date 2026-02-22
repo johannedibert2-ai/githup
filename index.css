@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
+
+/* Contenedor principal con efecto glow */
+header {
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 50px;
+    color: #00ffff;
+    text-shadow: 
+        0 0 5px #00ffff,
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff;
+}
+
+/* Subtítulo */
+header p {
+    font-size: 20px;
+    color: #ff00ff;
+    text-shadow: 
+        0 0 5px #ff00ff,
+        0 0 10px #ff00ff,
+        0 0 20px #ff00ff;
+}
+
+/* Sección con borde luminoso */
+.sobre-mi {
+    margin: 40px auto;
+    padding: 30px;
+    width: 60%;
+    border: 2px solid #00ffff;
+    border-radius: 15px;
+    box-shadow: 
+        0 0 10px #00ffff,
+        0 0 20px #00ffff,
+        0 0 40px #00ffff;
+}
+
+/* Botón neon */
+button {
+    padding: 15px 35px;
+    font-size: 18px;
+    border: 2px solid #ff00ff;
+    background: transparent;
+    color: #ff00ff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 
+        0 0 5px #ff00ff,
+        0 0 15px #ff00ff;
+}
+
+button:hover {
+    background: #ff00ff;
+    color: black;
+    box-shadow: 
+        0 0 20px #ff00ff,
+        0 0 40px #ff00ff,
+        0 0 60px #ff00ff;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+}
